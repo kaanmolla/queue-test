@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/queue_test
+    username: queue_user
+    password: queue_user_secret
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
