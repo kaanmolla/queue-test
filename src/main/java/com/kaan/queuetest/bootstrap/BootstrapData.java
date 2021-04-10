@@ -26,7 +26,7 @@ public class BootstrapData implements CommandLineRunner {
     user.setEmail("kaan@kaan.com");
 
     Content content = new Content();
-    content.setDocumentId("abc");
+    content.setDocumentId("abcd");
     content.setOwner(user);
 
     user.getContents().add(content);
